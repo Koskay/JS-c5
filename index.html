@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Картотека</h1>
+    <form>
+         <p class="text">Номер страницы</p>
+         <input placeholder="Номер страницы" class='one' type="number" name="form_input"  min="1" max="10" required>
+         <span class="label__hint1"></span>
+    </form>
+    <form>
+          <p class="text">Лимит</p>
+          <input placeholder="Лимит" class='two' type="number" name="form_input"  min="1" max="10" required>
+          <span class="label__hint2"></span>
+    </form>
+    <button class="btn j-btn">Запрос</button>
+    <div class='result'></div>
+    <script src="scripts.js"></script>
+</body>
+</html>
